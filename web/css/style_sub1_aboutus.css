@@ -1,0 +1,375 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: #fff;}
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 12px ;
+    line-height: 28px;
+    color: #fff;
+    min-width: 1320px;
+    background-color: #0c1b16;
+}
+
+/*탑 헤더*/
+
+#top{
+   background: url(../images/sub_main_banner_.png) no-repeat center;   
+   width: 100%;
+   height: 705px;
+}
+
+#header{
+   width: 1320px;
+   margin: auto;
+   height: 100px;
+   position: relative;
+}
+
+
+.nav .mainlogo{
+   position: absolute;
+   left: 100px;
+   top: 25px;
+   margin-left: -27.5px;
+}
+
+.menu_bar{
+   float: left;
+   margin: 40px 0px 0 175px;
+}
+
+.menu_bar li{
+   float: left;
+   display: block;
+   margin-right: 55px;
+ 
+}
+
+.menu_bar li a{
+   font-size: 20px;
+   color: #e4cb75;
+   font-weight: bold;
+   }
+
+   
+
+.menu_bar li .membership_btn{
+  background-color: rgba(219, 188, 94, 0.2);
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 8px 10px;
+  color: #f4e8bf;
+}
+
+
+.menu_bar li a:hover{
+   text-shadow: 2px 2px 2px rgba(228, 203, 117, 0.9);
+   color: #fff;
+}
+
+
+.menu_bar li .membership_btn:hover{
+   background-color: rgba(219, 188, 94, 0.5);
+   color: #fff;
+}
+
+/*컨텐츠1_about us*/
+
+#c1_aboutus{
+   width: 1320px;
+   margin: auto;
+   height: 860px;
+   background: url(../images/sub01_steak_bg.png) left no-repeat;
+   position: relative;
+}
+
+.c1_typo{
+   position: absolute;
+   right: 100px;
+   top: 180px;
+}
+
+.c1_text{
+   position: absolute;
+   right: 100px;
+   top: 350px;
+}
+
+.c1_text p{
+   font-size: 16px;
+   color: #f8f4ef;
+   text-align: center;
+font-style: italic;
+}
+/*c2_비디오*/
+
+
+#c2_quote video{
+   width: 100%;
+
+}
+
+/*컨텐츠3_Drinks*/
+
+#c3_drinks{
+   width: 1320px;
+   margin: auto;
+   height: 611px;
+   background: url(../images/sub01_c3_drinks_bg.png) no-repeat right; 
+   position: relative;
+}
+
+.c3_typo{
+   position: absolute;
+   left: 100px;
+   top: 100px;
+}
+
+.c3_text{
+   position: absolute;
+   left: 100px;
+   top: 350px;
+}
+
+.c3_text p{
+   font-size: 16px;
+   color: #f8f4ef;
+   text-align: center;
+   font-style: italic;
+}
+
+
+/*컨텐츠4_introduce*/
+
+#c4_intro{
+   width: 1320px;
+   margin: 50px auto;
+   height: 862px;
+}
+
+#c4_wrap{
+   height: 862px;
+   background: url(../images/sub01_c4_wrap_border.png) no-repeat center;
+   position: relative;
+  
+}
+.c4_contents ul{
+   margin-left: 180px ;
+}
+
+.c4_contents li{
+   float: left;
+   background-color: #967032;
+   width: 300px;
+   height: 741px;
+   margin: 50px 10px;
+   border-radius: 150px 150px 0  0;
+   position: relative;
+}
+
+.c4_contents li .flag{
+   float: left;
+   margin: 190px 0 0 50px ;
+}
+
+.c4_contents li .c4_photo{
+   float: left;
+   margin: 30px 0 0 30px ;
+}
+.c4_contents li p{
+   text-align: center;
+   font-size: 16px;
+   line-height: 20px;
+   width: 250px;
+   position: absolute;
+   left: 25px;
+   top: 62%;  
+}
+
+.c4_contents .local{
+   background: url(../images/sub01_c4_local_img.png) center 50px no-repeat #967032;
+}
+
+.c4_contents  .bar{
+   background: url(../images/sub01_c4_bar_img.png) center 40px no-repeat #967032;
+}
+
+.c4_contents  .chef{
+   background: url(../images/sub01_c4_chef_img.png) center 30px no-repeat #967032;
+}
+
+/*c5_special*/
+#c5_special{
+   width: 100%;
+   background: url(../images/sub01_c5_banner.png) no-repeat center;
+   height: 349px;
+   margin: 100px auto;
+}
+
+/*c6_menu*/
+
+#c6_menu{
+   width: 1320px;
+   margin: auto; 
+}
+
+.c6_pizza{
+   background: url(../images/sub01_c6_bg.png) no-repeat right 10% ;
+   height: 508px;
+   position: relative;
+}
+
+.c6_pizza img{
+   float: left;
+   margin-left: -100px;
+} 
+.c6_pizza p{
+   color: #ebddca;
+   font-size: 18px;
+   line-height: 30px;
+   position: absolute;
+   top: 150px;
+   left: 50%;
+   text-align: center;
+}
+
+.btn{
+   position: absolute;
+   right:10%;
+   bottom: 130px;
+}
+
+
+.c6_steak{
+   background: url(../images/sub01_c6_bg.png) no-repeat left 10% ;
+   height: 508px;
+   position: relative;
+}
+
+
+.c6_steak img{
+   float: right;
+   
+   margin-right: 70px;
+}
+.c6_steak p{
+   color: #ebddca;
+   font-size: 18px;
+   line-height: 30px;
+   position: absolute;
+   top: 40%;
+   right: 45%;
+   text-align: center;
+}
+
+/*컨텐츠7*/
+
+#c7_pasta{
+   width: 1320px;
+   margin:  auto;
+   height: 1000px;
+  
+}
+
+.c7_banner{
+   float: left;
+   height: 717px;
+   width: 478px ;
+   margin: 100px 0 0 100px;
+}
+
+
+.c7_gallery{
+   float: right;
+   width: 620px;
+   margin: 100px 50px 0 0;
+   height: 800px;
+   box-sizing: border-box;
+   
+}
+
+.c7_gallery ul li{
+   float: left;
+   width: 199px;
+   height: 354px;
+   margin: 0 10px 10px 0;
+   overflow: hidden;
+}
+
+.c7_gallery li:nth-child(3n){
+   margin-right: 0px;
+}
+
+
+.c7_gallery li:hover img{
+   transform: scale(1.2, 1.2);
+   opacity: 0.5;
+}
+
+.c7_gallery img{
+   transition: all 1s;
+}
+
+/*footer*/
+
+
+
+
+#footer{
+   background-color: #8a948a;
+   height: 300px;
+   width: 100%;
+   margin: auto;
+   margin-top: 100px;
+   padding-bottom: 50px;
+
+}
+
+.footer_inner{
+   width: 1320px;
+   margin: 100px auto;
+   height: 300px;
+   color: #fff;
+   }
+
+.footer_left{
+   float: left;
+   padding: 56px 0 0 50px;
+   }
+
+.footer_left h4{
+   font-size: 24px;
+}
+.footer_left h6{
+   font-size: 14px;
+}
+
+.footer_left p{
+   margin-bottom: 20px;
+   line-height: 16px;
+}
+.footer_right{
+   float: right;
+   padding: 60px 50px 0 0;
+   text-align: right;
+}
+
+.footer_right h3{
+   font-size: 18px;
+}
+.footer_right p {
+   margin-bottom: 20px;
+   line-height: 18px;
+   font-size: 14px;
+   
+}
+
+.footer_inner .copyright{
+font-size: 16px;
+text-align: center;
+padding-top: 303px;
+margin-right: 200px;
+
+}

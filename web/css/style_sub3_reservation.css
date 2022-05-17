@@ -1,0 +1,301 @@
+
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: #fff;}
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 12px ;
+    line-height: 28px;
+    color: #666;
+    min-width: 1320px;
+    background: url(../images/sub_bg.png) no-repeat center;    
+    background-color: #0c1b16;
+}
+
+/*메뉴바*/
+#header{
+   width: 1320px;
+   margin: auto;
+   height: 100px;
+   position: relative;
+}
+
+.nav .mainlogo{
+   position: absolute;
+   left: 100px;
+   top: 25px;
+   margin-left: -27.5px;
+}
+
+.menu_bar{
+   float: left;
+   margin: 40px 0px 0 175px;
+}
+
+.menu_bar li{
+   float: left;
+   display: block;
+   margin-right: 55px;
+ }
+
+.menu_bar li a{
+   font-size: 20px;
+   color: #e4cb75;
+   font-weight: bold;
+   }
+
+.menu_bar li .membership_btn{
+  background-color: rgba(219, 188, 94, 0.2);
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 8px 10px;
+  color: #f4e8bf;
+}
+
+.menu_bar li a:hover{
+   text-shadow: 2px 2px 2px rgba(228, 203, 117, 0.9);
+   color: #fff;
+}
+
+.menu_bar li .membership_btn:hover{
+   background-color: rgba(219, 188, 94, 0.5);
+   color: #fff;
+}
+
+/*sub3_메인*/
+
+#sub3_main{
+   background: url(../images/sub3_main_bg.png) no-repeat center;
+   height: 618px;
+   width: 100%;
+   margin: auto;
+   
+   
+}
+.reservation_stand{
+   width: 1320px;
+   height: 700px;
+   margin: auto;
+   position: relative;
+
+}
+
+/*bar*/
+
+#sub3_reservation{
+   width: 1320px;
+   height: 255px;
+   background-color: rgba(12, 27, 22, 85%);
+   position: absolute;
+   left: 50%;
+   bottom: -50px;
+   margin-left: -660px;
+   border: #e4cb75 2px solid;
+   box-shadow: 0px 0px 10px 5px rgba(228,203,117,0.5);
+   
+}
+
+
+#sub3_reservation .select{
+padding: 90px 45px ;
+}
+
+
+#sub3_reservation .select .location, .people{
+   background-color: rgba(12, 27, 22, 85%);
+   border: #f4e8bf 1px solid;
+   padding: 5px ;
+   width: 190px;
+   height: 69px;
+   color: #fff;
+   font-size: 20px;
+   margin-right: 30px;
+}
+
+#sub3_reservation .select .calender, .time{
+   background-color: rgba(12, 27, 22, 85%);
+   border: #f4e8bf 1px solid;
+   width: 190px;
+   height: 69px;
+   color: #fff;
+   font-size: 20px;
+   margin-right: 30px;
+
+}
+input[type="time"]::-webkit-calendar-picker-indicator{
+   filter: invert(48%) sepia(13%) saturate(29%) hue-rotate(40deg) brightness(59%) contrast(80%);
+}
+#sub3_reservation .select .box{
+   background-color: rgba(232, 222, 204, 29%);
+   width: 219px;
+   height: 69px;
+   color: #fff;
+   font: 30px;
+   margin-left: 50px;
+   
+}
+
+
+/*content1 food and drinks*/
+
+#c1_explain{
+   margin: auto;
+   width: 1320px;
+   height: 800px;
+   margin-top: 170px;
+}
+
+#c1_explain ul{
+   float: left;
+   margin: 50px 0 0 100px;
+}
+
+#c1_explain ul li{
+   float: left;
+   text-align: center;
+   margin-right: 50px;
+}
+
+#c1_explain .food{
+   text-align: center;
+}
+
+#c1_explain .food h2{
+   font-size: 63px;
+   color: #fff;
+   text-align: center;
+   padding: 20px ;
+   margin-left: 10px;
+}
+
+#c1_explain .food img{
+   margin-right: -10px;
+}
+
+#c1_explain .food p{
+   font-size: 15px;
+   color: #ccc;
+   text-align: center;
+   margin-top: 20px;
+}
+
+#c1_explain .food .btn{
+   width: 220px;
+   height: 69px;
+   background-color: rgba(219, 188, 94, 0.2);
+   font-size: 20px;
+   text-align: center;
+   margin: 20px 0 0 20px;
+   padding-top: 17px;
+   box-sizing: border-box;
+}
+
+
+#c1_explain .food .btn2{
+   
+   width: 220px;
+   height: 69px;
+   background-color: rgba(219, 188, 94, 0.2);
+   font-size: 20px;
+   text-align: center;
+   margin: 20px 0 0 40px;
+   padding-top: 17px;
+   box-sizing: border-box;}
+
+
+/*content2*/
+
+#c2_app{
+   background: url(../images/sub3_c2_app.png) no-repeat center;
+   width: 100%;
+   height:836px ;
+   margin: auto;
+   margin-bottom: 200px;
+}
+
+#c2_app .apps{
+    margin: auto;
+   width: 1320px;
+   height: 836px;
+   position: relative;
+}
+
+#c2_app .apps .app_position{
+   position: absolute;
+   right: 50px;
+   bottom: 100px;
+   
+}
+
+#c2_app .apps a{
+   margin-right: 10px;
+}
+
+
+/*content3*/
+#c3_trading{
+   width: 100%;
+   height: 1291px;
+   background: url(../images/sub3_c3_trading.png) no-repeat center;
+   margin: auto;
+   
+}
+
+
+
+/*footer*/
+
+#footer{
+   background-color: #8a948a;
+   height: 300px;
+   width: 100%;
+   margin: auto;
+   padding-bottom: 50px;
+   }
+
+.footer_inner{
+   width: 1320px;
+   margin: 100px auto;
+   height: 300px;
+   color: #fff;
+   }
+
+.footer_left{
+   float: left;
+   padding: 56px 0 0 50px;
+   }
+
+.footer_left h4{
+   font-size: 24px;
+}
+.footer_left h6{
+   font-size: 14px;
+}
+
+.footer_left p{
+   margin-bottom: 20px;
+   line-height: 16px;
+}
+.footer_right{
+   float: right;
+   padding: 60px 50px 0 0;
+   text-align: right;
+}
+
+.footer_right h3{
+   font-size: 18px;
+}
+.footer_right p {
+   margin-bottom: 20px;
+   line-height: 18px;
+   font-size: 14px;
+   
+}
+
+.footer_inner .copyright{
+font-size: 16px;
+text-align: center;
+padding-top: 303px;
+margin-right: 200px;
+
+}

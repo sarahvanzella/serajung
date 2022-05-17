@@ -1,0 +1,523 @@
+
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: #fff;}
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 12px ;
+    line-height: 28px;
+    color: #666;
+    min-width: 1320px;
+    background: url(../images/sub_bg.png) no-repeat center;
+    background-color: #0c1b16;
+}
+
+/*탑 헤더*/
+#top{
+   background: url(../images/sub_main_banner_.png) no-repeat center;   
+   width: 100%;
+   height: 705px;
+}
+
+#header{
+   width: 1320px;
+   margin: auto;
+   height: 100px;
+   position: relative;
+}
+
+
+.nav .mainlogo{
+   position: absolute;
+   left: 100px;
+   top: 25px;
+   margin-left: -27.5px;
+}
+
+.menu_bar{
+   float: left;
+   margin: 40px 0px 0 175px;
+}
+
+.menu_bar li{
+   float: left;
+   display: block;
+   margin-right: 55px;
+ 
+}
+
+.menu_bar li a{
+   font-size: 20px;
+   color: #e4cb75;
+   font-weight: bold;
+   }
+
+   
+
+.menu_bar li .membership_btn{
+  background-color: rgba(219, 188, 94, 0.2);
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 8px 10px;
+  color: #f4e8bf;
+}
+
+
+.menu_bar li a:hover{
+   text-shadow: 2px 2px 2px rgba(228, 203, 117, 0.9);
+   color: #fff;
+}
+
+
+.menu_bar li .membership_btn:hover{
+   background-color: rgba(219, 188, 94, 0.5);
+   color: #fff;
+}
+
+/*컨텐츠1 starter*/
+
+#sub02_c1_starter{
+   width: 1320px;
+   height: 608px;
+   margin: auto;
+   position: relative;
+}
+
+.c1_starter_img{
+  position: absolute;
+  top: 80px;
+  left:30px;
+  z-index: 2;
+  animation: starter 50s linear infinite ;
+} 
+
+@keyframes starter{
+   0%{transform: rotate(0);}
+   100%{transform: rotate(360deg);}
+}
+
+
+.c1_starter_typo{
+   position: absolute;
+   top: 150px;
+   right: 150px;
+}
+
+.c1_textbox{
+   position: absolute;
+   top: 250px;
+   right: 150px;
+   text-align: center;
+}
+
+.c1_textbox h2{
+   font-size: 30px;
+   color: #c6b191;
+   margin: 25px 0;
+}
+
+.c1_textbox h3{
+   font-size: 18px;
+   color: #e0c190;
+   font-style: italic;
+}
+
+.c1_textbox p{
+   font-size: 16px;
+   color: #86827b;
+   font-style: italic;
+   margin-bottom: 10px;
+}
+
+.basil01{
+   position: absolute;
+   bottom: 320px;
+   left: 0;
+}
+
+.salt{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+
+.basil02{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}
+
+/*컨텐츠2 MAIN*/
+#sub02_c2_main{
+   background: url(../images/sub02_c2_main_bg.png) no-repeat left;
+   width: 1320px;
+   margin: auto;
+   height: 800px;
+   position: relative;
+}
+
+.c2_main_typo{
+  padding: 100px 0 0 280px;
+}
+
+
+.c2_textbox{
+   position: absolute;
+   top: 250px;
+   left: 100px;
+   text-align: center;
+}
+
+.c2_textbox h2{
+   font-size: 30px;
+   color: #c6b191;
+   margin: 25px 0;
+}
+
+.c2_textbox h3{
+   font-size: 18px;
+   color: #e0c190;
+   font-style: italic;
+}
+
+.c2_textbox p{
+   font-size: 16px;
+   color: #86827b;
+   font-style: italic;
+   margin-bottom: 10px;
+}
+
+.main{
+   position: absolute;
+   right:0px;
+   top: 0px;
+   z-index: 2;
+}
+
+.main_circle{
+   position: absolute;
+   top: 195px;
+   right: 195px;
+  
+} 
+
+.pasta_coner{
+   position: absolute;
+    bottom: 100px;
+   right: 150px;
+}
+
+/*컨텐츠3 season special*/
+
+#sub02_c3_season{
+   width: 1320px;
+   height: 700px;
+   margin: 50px auto;
+   position: relative;
+}
+
+.c3_lasagne{
+   height: 496px;  
+   position: absolute;
+   top: 80px;
+   left: 0;
+   z-index: 99; 
+}
+
+.c3_typo{
+   position: absolute;
+   top: 50px;  
+   right: 250px;
+   
+   
+}
+
+.c3_textbox{
+   position: absolute;
+   right: 140px;
+   top: 200px;
+   text-align: center;
+}
+
+.c3_textbox h2{
+   font-size: 30px;
+   color: #c6b191;
+   margin: 25px 0;
+}
+
+.c3_textbox h3{
+   font-size: 18px;
+   color: #e0c190;
+   font-style: italic;
+}
+
+.c3_textbox p{
+   font-size: 16px;
+   color: #86827b;
+   font-style: italic;
+   margin-bottom: 10px;
+}
+
+.c3_side_img01{
+   position: absolute;
+   right: 0px;
+   top: 40px;
+}
+
+.c3_side_img02{
+   position: absolute;
+   top: 70px;
+}
+
+/*컨텐츠3_pasta*/
+
+#sub02_c4_pasta{
+   margin: 100px auto;
+   width: 1320px;
+   height: 750px;
+}
+
+.c4_pasta_wrap{
+   background: url(../images/sub02_c4_wrap.png) center no-repeat;
+   height: 701px;
+}
+.c4_pasta_content{
+   padding: 150px 0px 0 100px;
+ }
+
+.c4_pasta_content li{
+   float: left;
+   background: url(../images/c4_li_bg.png) no-repeat ;
+   height: 450px;
+   width: 265px;
+   padding-top: 30px;
+   margin-right: 20px;
+   text-align: center;
+}
+
+.c4_pasta_content li h3{
+   font-size: 18px;
+   font-weight: bold;
+   color: #e0c190;
+   margin:10px 0 20px 0;
+   text-transform: uppercase;
+}
+
+.c4_pasta_content li p{
+   font-size: 14px;
+   line-height: 18px;
+   color: #cbb8a3;
+   margin-top: 15px;
+}
+
+.basil{
+   line-height: 24px;
+}
+.classic{
+   line-height: 20px;
+}
+
+.seafood{
+   line-height: 20px;
+   padding-top: 20px;
+}
+
+
+.flip01{
+   width: 265px;
+   height: 450px;
+   perspective: 1000px;
+   position: relative;
+}
+
+.back{
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0;
+}
+
+.flip01:hover {
+   transform: rotateY(180deg);
+}
+
+.flip01:hover .back{
+   opacity: 1;
+}
+
+.flip01{
+   transition: all 1s;
+}
+
+/* 컨텐츠5 woodfire*/
+
+#sub02_c5_wood{
+   background: url(../images/sub02_c5_bg.png) repeat fixed center center;
+   height: 784px; 
+   width: 100%;
+   margin-top : 200px;
+   position: relative;
+   background-size: cover ;
+}
+
+.c5_banner{
+   width: 100%;
+   height: 784px;
+   }
+
+.woodfire{
+   position: absolute;
+   right: 100px;
+   top: 0;
+}
+
+/*컨텐츠6 와인*/
+
+#sub02_c6_wine{   
+   width: 1320px;
+   height: 1500px;
+   margin: 100px auto;
+}
+
+.c6_typo{
+   text-align: center;
+}
+.c6_textbox{
+   text-align: center;
+   padding-top: 50px;
+}
+.c6_textbox h4{
+   font-size: 18px;
+   color: #b8b5b2;
+   padding-bottom: 50px;
+   font-style: italic;
+}
+.c6_textbox p{
+   font-size: 20px;
+   line-height: 30px;
+   color: #f1efea;
+}
+
+.c6_wine_img{
+   width: 1320px;
+   height: 1000px;
+   margin: 0 auto;
+   }
+
+.c6_wine_img ul{
+   float: left;
+   text-align: center;
+   margin: 50px ;
+}
+
+.c6_wine_img ul li{
+   float: left;
+   width: 265px;
+   height: 500px;
+   background-color: rgba(255, 255, 255, 15%);
+   border-radius: 20px;
+   text-align: center; 
+   padding-top: 10px; 
+   margin: 20px ;
+}
+
+
+.c6_wine_img ul li p{
+   color: #fff;
+}
+
+.c6_wine_img ul li img{
+   height: 390px;
+}
+.c6_wine_img ul li:nth-child(4){
+   margin-right: 0;
+}
+
+
+.c6_wine_img ul li:nth-child(8){
+   margin-right: 0;
+}
+
+
+.c6_wine_img ul li p{
+  background-color: rgba(255, 255, 255, 20%); 
+  width: 230px;
+  height: 70px;
+  line-height: 20px;
+  margin:  auto ;
+  padding: 15px 0;
+  box-sizing: border-box;
+
+}
+
+
+.c6_wine_img a:hover img{
+   transform: scale(1.1, 1.1);
+}
+
+.c6_wine_img img{
+   transition: all 1.0s;
+}
+
+
+/*footer*/
+
+
+
+
+#footer{
+   background-color: #8a948a;
+   height: 300px;
+   width: 100%;
+   margin: auto;
+   margin-top: 100px;
+   padding-bottom: 50px;
+
+}
+
+.footer_inner{
+   width: 1320px;
+   margin: 100px auto;
+   height: 300px;
+   color: #fff;
+   }
+
+.footer_left{
+   float: left;
+   padding: 56px 0 0 50px;
+   }
+
+.footer_left h4{
+   font-size: 24px;
+}
+.footer_left h6{
+   font-size: 14px;
+}
+
+.footer_left p{
+   margin-bottom: 20px;
+   line-height: 16px;
+}
+.footer_right{
+   float: right;
+   padding: 60px 50px 0 0;
+   text-align: right;
+}
+
+.footer_right h3{
+   font-size: 18px;
+}
+.footer_right p {
+   margin-bottom: 20px;
+   line-height: 18px;
+   font-size: 14px;
+   
+}
+
+.footer_inner .copyright{
+font-size: 16px;
+text-align: center;
+padding-top: 303px;
+margin-right: 200px;
+
+}

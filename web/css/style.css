@@ -1,0 +1,576 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: #666;}
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 12px ;
+    line-height: 28px;
+    color: #666;
+    min-width: 1320px;
+    background: url(../images/sub_bg.png) repeat-y center; 
+    background-color: #0c1b16;
+    margin: auto;}
+
+/*헤더 탑 오른쪽*/
+#main{
+    background: url(../images/main_bg.png) no-repeat center top; 
+    width: 100%;
+    height: 1112px;
+    background-color: #f9f6e6;
+    }
+
+.header{
+    width: 1320px;
+    height: 850px;
+    margin: auto;
+    position: relative;
+}
+
+.header ul{
+    float: right;
+}
+
+.header ul li{
+    float: left;
+    margin-top: 10px;
+    
+}
+
+.search{
+    width: 200px;
+    height: 30px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    position: relative;
+}
+input#id {
+    background-color:rgba(255, 255, 255, 20%);
+    height: 25px;
+    border-style: none;
+    width: 180px;
+    border-radius: 8px;
+    outline-style: none;
+    color: #fff;
+  
+}
+
+.search a{
+    position: absolute;
+    right: 8px;
+    top: 9.5px;
+}
+
+.membership{
+    width: 80px;
+    height: 30px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+}
+.membership a{
+    font-size: 12px;
+    color: #fff;
+}
+
+.membership:hover{
+    background-color: rgba(253, 225, 188, 0.3);
+    
+}
+
+/*메인 로고*/
+
+.main_logo{
+    position: absolute;
+    top: 34px;
+    left:0;
+}
+
+/*nav*/
+
+.gnb{
+    width: 1120px;
+    height: 140px;
+    margin: auto;
+}
+
+.nav{
+    margin-top: 20px;
+    height: 50px;
+}
+
+.gnb .nav li{
+    float: left;
+    padding: 0 40px;
+    
+}
+
+.gnb .nav li a {
+    font-size: 20px;
+    color: #e0e3df;
+    font-weight: bold;
+}
+
+.gnb .nav li a:hover{
+    text-shadow: 2px 2px 2px rgba(228, 203, 117, 0.9);
+   color: #fff;
+}
+
+/*예약박스*/
+
+#booking_box{
+    width: 1320px;
+    height: 635px;
+    margin: 30px auto;   
+}
+
+#booking{
+    width: 1200px;
+    height: 503px;
+    background-color: #0f4514;
+    margin:  auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.booking_text{
+    float: left;
+}
+
+.booking_text .text{
+    text-align: center;
+    height: 240px;
+    padding-top: 50px;
+}
+
+.booking_text .text h4{
+    font-style: italic;
+    font-size: 14px;
+    color: #e0e3df;
+    padding-bottom: 20px;
+}
+.typelogo{
+    padding-bottom: 10px;
+}
+.booking_text .text p{
+    font-size: 16px;
+    color: #e0e3df;
+}
+
+#booking_input{
+    width: 600px;
+    height: 220px;
+   
+    text-align: center;
+    position: relative;
+   }
+
+.booking_btn{
+    position: absolute;
+    right: 100px;
+    bottom: 20px;
+}
+.location {
+       background-color: #0f4514;
+       border: none;
+       padding: 5px;
+       border-bottom: 1px solid #9e8427;
+       width: 400px;
+       color: #9e8427;
+       font-size: 18px;
+       font-family: 'Playfair Display', serif;
+       outline-style: none;
+   }
+.location option:hover{
+       background-color: #9e8427;
+       color: #0f4514; 
+   }
+
+.calender{
+    background-color: #0f4514;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid #9e8427;
+    width: 200px;
+    background:url(../images/icon_wallpaper.png) no-repeat 90% center;
+    margin:31.5px 20px 31.5px 0;
+    width:200px;
+    color:#9e8427;
+    outline-style: none;
+    
+}
+
+.select input::placeholder {
+	color:#9e8427;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+.people{
+    background-color: #0f4514;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid #9e8427;
+    color: #9e8427;
+    width: 165px ;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    outline-style: none;
+}
+.booking_img{  
+    float: right;
+}
+
+
+/*c1_welcome*/
+
+.main_c1_welcome{
+    width: 1320px;
+    height: 300px ;
+    margin: auto;
+}
+
+.c1_welcome{
+    text-align: center;
+    padding-top: 20px;
+}
+.c1_welcome img{
+    padding-bottom: 20px;
+}
+.c1_welcome p{
+    color: #908c87;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/*c2_about us*/
+
+#main_c2_aboutus{
+    height: 700px;
+    width: 1320px;
+    margin:auto;
+}
+
+.c2_img{
+    float: left;
+}
+
+.c2_text{
+    float: right;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.c2_typo{
+    height: 87px;
+    margin: 100px;
+    text-align: center;
+}
+.text_p p:nth-child(1){
+    font-size: 18px;
+    color: #b9b5af;
+}
+
+.text_p p:nth-child(2){
+    font-size: 14px;
+    color: #c4beb6 ;
+    font-style: italic;
+}
+.text_p p{
+    padding-bottom: 50px;
+}
+/**/
+
+#main_c3_event{
+    height: 642px;
+    background-color: #f9f6e6;}
+
+
+    
+#c3_banner{
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    background-color: #f9f6e6;
+
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+   
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 1000px;
+    height:550px;
+    object-fit: cover;
+   
+  }
+
+  /*main_c4_member*/
+
+#main_c4_member{
+    width: 1320px;
+    height: 615px;
+    margin: auto;
+    position: relative;
+}
+
+
+.c4_typo{
+    float: left;
+    text-align: center;  
+    padding: 200px 0 100px 0px;
+}
+
+.c4_typo img{
+    padding-bottom: 80px;
+}
+  
+
+.c4_typo p{
+    font-size: 22px;
+    color: #b9b5af;
+    line-height: 34px;
+}
+
+.c4_img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+/*main_c5_detail
+*/
+#main_c5_detail{  
+    background-color: #f9f6e6;  
+    width: 100%; 
+    height: 639px;
+
+}
+
+.c5_bg{
+    width: 1320px; 
+    height: 747px;
+    background: url(../images/c5_bg.png) no-repeat center;
+    margin: auto;
+}
+
+.content ul{
+    float: left;
+    margin: 140px 0px 150px 100px;
+}
+.content ul li{
+    float: left;
+    background-color: rgba(255, 255, 255, 65%);
+    width: 320px;
+    height: 400px;
+    text-align: center;
+    margin-right: 75px;
+}
+
+.content ul li:nth-child(3){
+    margin-right: none;
+}
+.content ul li img{
+    padding-top: 30px;
+}
+.content ul li h5{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.content ul li p{
+    font-size: 15px;
+    line-height: 20px;
+}
+/**/
+
+
+#main_c6_gallery{
+    width: 1320px;
+    margin: auto;
+    height: 750px;
+}
+
+.c6_typo{
+    text-align: center;
+    height: 58px;
+    margin: 100px 50px 50px 0; 
+}
+
+
+.c6_gallery{
+    width:1200px;
+    height: 650px;
+    margin: auto;
+    padding: 0px 100px;
+    box-sizing: border-box;
+   
+}
+
+.c6_gallery ul li{
+    float: left;
+    width: 280px;
+    height: 253px;
+    margin: 20px 25px ;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: rgba(255, 255, 255, 0.1) 15px solid;
+    
+}
+
+.c6_gallery li:nth-child(3n){
+    margin-right: 0;
+}
+
+
+.c6_gallery li:hover img{
+    transform: scale(1.2, 1.2);
+}
+
+.c6_gallery img{
+    transition: all 1.5s;
+}
+
+/*c6_구독하기 */
+
+#c6_subscribe{
+    width: 914px;
+    height: 160px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 20%);
+    border-radius: 10px ;
+    border: 1px solid rgba(255, 255, 255, 40%);
+    padding: 15px 25px ;
+    box-sizing: border-box;
+}
+
+#c6_subscribe h2{
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+#c6_subscribe p{
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 20px;
+    color: #fff;
+}
+.c6_form{
+    float: left;
+}
+#c6_subscribe .email{
+    background-color: rgba(255, 255, 255, 60%);
+    outline-style: none;
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+
+#c6_form .email{
+    color: #eee;
+}
+#c6_subscribe .submit{
+    background-color: #999;
+    color: #eee;
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-left: 5px;
+}
+
+.c6_media{
+   float: right;
+   }
+
+.c6_media li{
+    float: left;
+    display: block;
+    padding: 0 10px 30px 0;
+}
+
+ /*footer*/
+
+
+
+
+#footer{
+   background-color: #8a948a;
+   height: 300px;
+   width: 100%;
+   margin: auto;
+   margin-top: 100px;
+   padding-bottom: 50px;
+
+}
+
+.footer_inner{
+   width: 1320px;
+   margin: 100px auto;
+   height: 300px;
+   color: #fff;
+   }
+
+.footer_left{
+   float: left;
+   padding: 56px 0 0 50px;
+   }
+
+.footer_left h4{
+   font-size: 24px;
+}
+.footer_left h6{
+   font-size: 14px;
+}
+
+.footer_left p{
+   margin-bottom: 20px;
+   line-height: 16px;
+}
+.footer_right{
+   float: right;
+   padding: 60px 50px 0 0;
+   text-align: right;
+}
+
+.footer_right h3{
+   font-size: 18px;
+}
+.footer_right p {
+   margin-bottom: 20px;
+   line-height: 18px;
+   font-size: 14px;
+   
+}
+
+.footer_inner .copyright{
+font-size: 16px;
+text-align: center;
+padding-top: 303px;
+margin-right: 200px;
+
+}
