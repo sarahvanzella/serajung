@@ -71,3 +71,12 @@ body{
 	height:707px;
 	background-size:100% 100%;
 }
+
+ .fixed2{
+	position: fixed;
+	right:100px;
+	bottom:40px;
+ }
+ .fixed2:hover{
+	opacity:0.8;
+ }
